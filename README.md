@@ -1,1 +1,1 @@
-# Fantasy_Book_Title_Generator
+15 minute project I made, generates book titles from a list of words. Feel free to add formats and words, change it however you like!

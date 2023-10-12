@@ -33,8 +33,8 @@ names = ["Eldorin", "Thalion", "Belerand", "Firion", "Nimrodel", "Gwindor", "Ear
 # Title formats
 formats = [
     "A(n) {race}'s {adjective} Guide to {action}ing {adverb} in {adjective2} {place}",
-    #"{adjective} {action}: by {name}",
-    #"{place} Living: A {race} Perspective"
+    "{adjective} {action}: by {name}",
+    "{place} Living: A {race} Perspective"
 ]
 
 def generate_title():

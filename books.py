@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 
-# Databases
+# Word lists
 races = ["Elf", "Dwarf", "Orc", "Human", "Goblin", "Aasimar", "Argonian", "Asura", "Dragonspawn", "Draugr", "Dwemer", "Gold dwarf", "Grawl", "Half-draenei", "Mountain dwarf", "Treant"]
 adjectives = ["Brave", "Cowardly", "Wise", "Foolish", "Mysterious", "Abandoned", "Able", "Absolute", "Adorable", "Adventurous", "Academic", "Acceptable", "Acclaimed", "Accomplished", "Accurate", "Aching"]
 actions = ["Fighting", "Cooking", "Writing", "Singing", "Dancing", "Advise", "Agree", "Arrive", "Ask", "Bake", "Build", "Buy", "Call", "Catch", "Change", "Choose", "Clean", "Climb", "Close", "Come",
@@ -41,7 +41,7 @@ def generate_title():
     # Choose a random format
     title_format = random.choice(formats)
 
-    # Fill in the format with random choices from the databases
+    # Fill in the format with random choices from the word lists
     if "{adjective2}" in title_format:
         # If the format requires two different adjectives, select them separately
         adjectives_list = random.sample(adjectives, 2)
